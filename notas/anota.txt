@@ -1,0 +1,5 @@
+nth-child(numeroN);
+
+propriedade para selecionar multiplos em uma serie de varios elementos 
+
+filhos

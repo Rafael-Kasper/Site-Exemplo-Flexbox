@@ -1,0 +1,30 @@
+Quando colocamos display: flex em um elemento, o navegador passa a considerar esse elemento como um flex container, ou seja, cria todo aquele comportamento que vimos anteriormente no curso, os filhos ficam um do lado do outro e podemos aplicar propriedades para espaçá-los.
+
+Os filhos de um flex container por sua vez também ganham um nome, são chamados de flex items.
+
+Quando utilizamos flexbox temos que ficar atentos em quem colocamos as propriedades de espaçamento e distribuição do flex. Por exemplo, existem algumas propriedades que devem ser aplicadas à flex container e outras que devem ser aplicadas nos flex items.
+
+
+O melhor a se fazer aqui é ter em mente que o ideal é sempre que necessário consultar a documentação através desse site.
+
+Lá podemos ver claramente quais propriedades são aplicadas ao container e aos flex items, não há necessidade de ficar decorando, isso virá naturalmente com a prática.
+
+Seguindo a documentação temos:
+
+container:
+
+display: flex
+flex-direction
+justify-content
+flex-wrap
+flex-flow
+align-items
+align-content
+flex item:
+
+order
+flex-grow
+flex-shrink
+flex-basis
+flex
+align-self
